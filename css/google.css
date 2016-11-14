@@ -1,0 +1,105 @@
+/*
+============================================
+Main Nav
+============================================
+*/
+
+ ul {
+   list-style-type: none;
+   margin: 0 auto;
+
+ }
+
+ li {
+   float: right;
+ }
+
+ a {
+   color: inherit;
+   cursor: pointer;
+   display: block;
+   padding: 8px;
+   text-decoration: none;
+ }
+
+ .main-nav {
+   padding: 5px;
+   font: 400 1em "Helvetice Neue", Helvetica, Arial, sans-serif;
+   color: #a4a6a6;
+ }
+
+
+/*
+============================================
+Search
+============================================
+*/
+
+.google-logo {
+  position: absolute;
+  left: 39%;
+  top: 30%;
+
+}
+
+.search {
+  position: absolute;
+  top:50%;
+  left: 30%;
+  width: 50%;
+  height: 2em;
+  font-size: 1em;
+}
+
+.google-submit {
+  position: absolute;
+  background-color: #ececec;
+  border: none;
+  color: #767676;
+  font-size: 1em;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.submit {
+  top: 60%;
+  left: 40%;
+}
+.submitted {
+  top:60%;
+  left:50%;
+}
+
+
+/*
+============================================
+Footer
+============================================
+*/
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #ececec;
+  font: 300 1em "Helvetica Neue", Helvetica, Arial, sans-serif;
+  height: 2em;
+  padding: 10px;
+  border-top: 1px solid #cbcbcb;
+}
+
+.footer-left {
+  float: left;
+  display: inline-block;
+}
+
+.footer-right {
+  float: right;
+  display: inline-block;
+}
+
+.footer-link {
+  color: #767676;
+  font: 300 1em "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
